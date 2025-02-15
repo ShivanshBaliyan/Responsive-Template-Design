@@ -1,4 +1,4 @@
 # Responsive-Template-Design
 
 This is a Responsive Template Design 
-Made by - Shivansh Baliyan
+<br> Made by - Shivansh Baliyan
