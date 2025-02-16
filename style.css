@@ -1,0 +1,262 @@
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.section h2.section-head::after{
+    background-color: #e74c3c;
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin: 20px auto;
+}
+
+#header{
+    color: white;
+    background-color: #e74c3c;
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    color: white;
+    padding: 15px 10px;
+    display: block;
+}
+
+#menu li a:hover{
+    background-color: #c0392b;
+}
+
+#banner{
+    background-image: url(/Images/okeykat-7F8oj52CDYE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    font-size: 2rem;
+    margin: 0.2rem;
+}
+
+.banner-title{
+    padding: 5rem;
+}
+
+.banner-title h1{
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p.lead{
+    color: white;
+    background: rgba(231, 76, 60, 0.8);
+    padding: 10px;
+    
+}
+
+.service-box{
+    text-align: center;
+}
+
+.service-box i.fa{
+    color: #e74c3c;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+#testimonials{
+    color: white;
+    background-image: url(/Images/nordwood-themes-9a58YsGiTPk-unsplash.jpg);
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#testimonials::before{
+    background: rgba(52,73,94,0.2);
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.testimonial img{
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3{
+    font-size: 1.35rem;
+}
+
+.news-post a{
+    color: #e74c3c;
+}
+
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.post-date::before{
+    content: "\f133";
+    font-family: "Font Awesome 6 Free";
+    margin-right: 10px;
+}
+
+a.readmore{
+    font: 14px;
+}
+
+a.readmore::after {
+    content: "\f101";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900; 
+    margin-left: 5px;
+}
+
+#footer-sidebar{
+    color: white;
+    background-color: #34495e;
+    padding: 2rem 0;
+}
+
+.footer-widget h4::after{
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 5px 0;
+}
+
+.footer-widget a{
+    color: #fff;
+}
+
+.latest-news{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.latest-news li{
+    margin-bottom: 3px;
+}
+
+.latest-news li::before{
+    content: "\f101";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900; 
+    margin-right: 5px;
+}
+
+#footer{
+    color: #fff;
+    background-color: #2c3e50;
+    padding: 10px 0;
+}
+
+#social-icons{
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#social-icons li{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+#social-icons li a{
+    color: #fff;
+    font-size: 23px;
+}
+
+@media (max-width: 992px) {
+    .news-post{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo{
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    #menu{
+        text-align: center;
+    }
+
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .banner-title{
+        padding: 0;
+    }
+    
+    .banner-title h1{
+        font-size: 1.7rem;
+    }
+
+    .testimonial{
+        text-align: center;
+    }
+
+    .service-box{
+        margin-bottom: 40px;
+    }
+
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+
+    #footer{
+        text-align: center;
+    }
+
+    #social-icons{
+        margin-top: 10px
+    }
+}
